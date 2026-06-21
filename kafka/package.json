@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "setup-topics.js",
+  "scripts": {
+    "setup": "ts-node --esm src/setup-topics.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

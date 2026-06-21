@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# TypeScript compiled output
+dist/
+
+# Environment variables - NEVER push this
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
